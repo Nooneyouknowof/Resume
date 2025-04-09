@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Ethan McNaughton</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Print in A4 -->
+    <style>
+      @media print {
+        @page {
+          size: A4;
+          margin: 10mm;
+        }
+        /* Force background images and colors to print */
+        body {
+          -webkit-print-color-adjust: exact;
+          color-adjust: exact;
+        }
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+    <main class="max-w-5xl mx-auto">
+      <!-- Header Section -->
+      <header
+        class="bg-white rounded-2xl shadow-lg overflow-hidden mb-6 group hover:shadow-xl transition-shadow duration-300">
+        <div class="bg-gradient-to-r from-blue-600 to-blue-800 p-8">
+          <div class="text-center text-white">
+            <h1 class="text-4xl font-bold mb-2">Ethan McNaughton</h1>
+            <p class="text-xl text-blue-100">
+                Computer Science Student &amp; Full-Stack JavaScript Developer
+            </p>
+
+            <!-- Contact Info -->
+            <div class="flex flex-col items-center gap-4 mt-6">
+              <div class="flex flex-wrap justify-center items-center gap-6">
+                <!-- Address -->
+                <div class="group">
+                  <span class="block text-blue-100 text-sm">Address</span>
+                  <span class="block text-white hover:text-blue-200 transition-colors">
+                    PO Box xx04, Place, AZ xxxxx
+                  </span>
+                </div>
+                <!-- Email -->
+                <a href="mailto:octaviomcnaughton@gmail.com" class="group">
+                  <span class="block text-blue-100 text-sm">Email</span>
+                  <span class="block text-white hover:text-blue-200 transition-colors">octaviomcnaughton@gmail.com</span>
+                </a>
+                <!-- Phone -->
+                <a href="tel:xxxxxxx" class="group">
+                  <span class="block text-blue-100 text-sm">Phone</span>
+                  <span class="block text-white hover:text-blue-200 transition-colors">(623)-262-6045</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Intro / Summary -->
+            <div
+              class="mt-6 max-w-3xl mx-auto text-blue-100 text-sm leading-relaxed">
+              <p>
+                Passionate about building modular long-term framworks. Obsessed with efficient architecture, User experience, and neural networks running on GPU with OpenCL. I am seeking an entry-level position as <strong>Software Developer / Software Engineer</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Content Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Left Column: Education, Skills, Certifications, etc. -->
+        <aside class="lg:col-span-1 space-y-6">
+          <!-- Education -->
+          <section
+            class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">Education</h2>
+            <div class="space-y-4 text-sm text-gray-700">
+              <div>
+                <h3 class="font-semibold">
+                    Arizona State University, Tempe, AZ (2025 - 2029)
+                </h3>
+                <div class="flex flex-col gap-2 p-2">
+                  <span class="px-3 py-1 bg-yellow-400 text-yellow-800 rounded-full text-xs text-center">
+                    Bachelor of Science in Computer Science
+                  </span>
+                </div>
+              </div>
+              <div>
+                <h3 class="font-semibold">
+                  West-MEC Career and Technical Education, Glendale, AZ (2023 - 2025)
+                </h3>
+                <div class="flex flex-col gap-2 p-2">
+                  <span class="px-3 py-1 bg-yellow-400 text-yellow-800 rounded-full text-xs text-center">
+                    HTML5 certification
+                  </span>
+                  <span class="px-3 py-1 bg-yellow-400 text-yellow-800 rounded-full text-xs text-center">
+                    CSS3 certification
+                  </span>
+                  <span class="px-3 py-1 bg-yellow-400 text-yellow-800 rounded-full text-xs text-center">
+                    JavaScript certification
+                  </span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills & Technologies -->
+          <section
+            class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+            <h2 class="text-xl font-bold text-gray-800 mb-4">Skills</h2>
+            <!-- Soft Skills -->
+            <div class="mb-4">
+              <h3 class="font-semibold text-gray-700 mb-2">Soft Skills</h3>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Curiosity</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Self-Motivation</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Problem Solving</span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Persistence</span>
+              </div>
+            </div>
+
+            <!-- Coding Skills -->
+            <div class="mb-4">
+              <h3 class="font-semibold text-gray-700 mb-2">Coding Skills</h3>
+              <p class="text-sm text-gray-600 mb-2">Advanced:</p>
+              <div class="flex flex-wrap gap-2 mb-2">
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  JavaScript
+                </span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  HTML5
+                </span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  CSS3
+                </span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  Node
+                </span>
+                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  NPM
+                </span>
+              </div>
+
+              <p class="text-sm text-gray-600 mb-2">Intermediate:</p>
+              <div class="flex flex-wrap gap-2 mb-2">
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  Python
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  Lua
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  React
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  React-Native
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  Bootstrap 4
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  Mongo
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  Windows Terminal
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  Linux / Unix Terminal
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  Front-End Design
+                </span>
+                <span
+                  class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">
+                  UI / UX
+                </span>
+              </div>
+
+              <p class="text-sm text-gray-600 mb-2">Learning:</p>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs">
+                  SQL
+                </span>
+                <span
+                  class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs">
+                  Rust
+                </span>
+                <span
+                  class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs">
+                  C
+                </span>
+                <span
+                  class="px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full text-xs">
+                  C++
+                </span>
+              </div>
+            </div>
+
+            <!-- Other Technologies -->
+            <div>
+              <h3 class="font-semibold text-gray-700 mb-2">Technologies</h3>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  HTML
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  CSS
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  React
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  Laravel
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  Express.js
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  MongoDB
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  MySQL
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  Vulkan
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  OpenGL
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  OpenCL
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  WebGL
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  AI
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  Machine Learning
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  HTTP / TCP
+                </span>
+                <span
+                  class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">
+                  Git
+                </span>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <!-- Right Column: Work Experience, Projects, etc. -->
+        <div class="lg:col-span-2 space-y-6">
+          <!-- Work Experience -->
+          <section class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+            <h2 class="text-xl font-bold text-gray-800 mb-6">
+                Experience
+            </h2>
+            <div class="space-y-6 text-sm text-gray-700">
+
+              <div class="border-l-4 border-green-500 pl-4">
+              <h3 class="font-semibold text-gray-800">West Maricopa Education Center</h3>
+              <p class="text-gray-600 text-xs mb-2">900+ hour technical training in programming full-stack applications</p>
+              <p class="mb-2">Technical training in modern programming and web development building front-end, server-side and full-stack applications and latest industry technologies and trends from certified instructors and industry guest speakers.</p>
+              </div>
+
+              <div class="border-l-4 border-green-500 pl-4">
+              <h3 class="font-semibold text-gray-800">Aguafria Union Highschool District</h3>
+              <p class="text-gray-600 text-xs mb-2">Interned for 2 years developing a mobile application</p>
+              <p class="mb-2">Created a React Native mobile application that involves authentication and authorization through OAuth 2.0 and navigates through the RTI API to manage a users RTI (Study-hall class) for a certain day</p>
+              </div>
+            </div>
+            <h2 class="text-xl font-bold text-gray-800 mb-6">
+                Portfolio Projects
+            </h2>
+            <div class="space-y-6 text-sm text-gray-700">
+                <!-- Procedurally Generated Background -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="font-semibold text-gray-800">Procedurally Generated Background</h3>
+                <p class="text-gray-600 text-xs mb-2">Vanilla JavaScript</p>
+                <p class="mb-2">Animated pixel sky with layered Perlin noise clouds and procedurally generated terrain. Great for game backgrounds and generative art using math.</p>
+                </div>
+
+                <!-- Inverse Kinematics AT-AT Walker -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="font-semibold text-gray-800">Inverse Kinematics AT-AT Walker</h3>
+                <p class="text-gray-600 text-xs mb-2">Vanilla JavaScript</p>
+                <p class="mb-2">
+                    A physics-based AT-AT walker simulation using inverse kinematics for realistic leg movement. Demonstrates procedural animation with dynamic stride and terrain adjustments.
+                </p>
+                </div>
+
+                <!-- Finance Tracker Web Application -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="font-semibold text-gray-800">Finance Tracker Web Application</h3>
+                <p class="text-gray-600 text-xs mb-2">HTML, CSS, JavaScript, Express.js</p>
+                <p class="mb-2">
+                    A full-stack budgeting tool built for an FBLA competition. Allows users to create accounts, track income and expenses by category, and visualize their spending with dynamic Chart.js graphs.
+                </p>
+                </div>
+
+                <!-- API Project -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="font-semibold text-gray-800">Employee Directory API UI</h3>
+                <p class="text-gray-600 text-xs mb-2">JavaScript, REST API</p>
+                <p class="mb-2">Dynamic, responsive user interface rendering employee data from a randomized JSON API.</p>
+                </div>
+
+                <h2 class="text-xl font-bold text-gray-800 mb-6">
+                    AI Projects
+                </h2>
+
+                <!-- AGI Architecture & Memory Core -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="font-semibold text-gray-800">AGI Modular Architecture</h3>
+                <p class="text-gray-600 text-xs mb-2">Rust, OpenCL</p>
+                <p class="mb-2">Worked on a custom engine for AGI development including a parallelized neural framework and dynamic memory system.</p>
+                </div>
+
+                <!-- Custom Neural Network Engine -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="font-semibold text-gray-800">Neural Network Engine</h3>
+                <p class="text-gray-600 text-xs mb-2">Rust, OpenCL</p>
+                <p class="mb-2">Implemented from scratch with support for dynamic activation functions, GPU matrix operations, and real-time training.</p>
+                </div>
+
+                <!-- Word Embedding / FastText -->
+                <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="font-semibold text-gray-800">Custom Word Embedding (FastText-inspired)</h3>
+                <p class="text-gray-600 text-xs mb-2">Custom GPU-based Skip-gram Model</p>
+                <p class="mb-2">Lightweight character-based word embedding system modeled after human early language acquisition.</p>
+                </div>
+            </div>
+          </section>
+          <section class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
+            <h2 class="text-xl font-bold text-gray-800 mb-6">
+              References
+            </h2>
+            <div class="flex flex-col gap-2 p-2">
+              <div class="bg-gray-100 shadow-md p-6">
+                <div>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Agua_Fria_High_School_District_logo.svg" alt="AGUA FRIA UNION HIGHSCOOL DISTRICT" class="w-64 flex-initial">
+                </div>
+                <div class="flex pt-5">
+                  <div class="flex-1">
+                    <h2 class="text-blue-800 text-xl">Brandon <Strong>Gabel</Strong></h2>
+                    <p>Network Operations Manager</p>
+                  </div>
+                  <div class="flex-1 text-right pr-5">
+                    <a href="">w 623.932.7000 Ext. 7698</a><br>
+                    <a href="mailto:bgabel@aguafria.org">bgabel@aguafria.org</a><br>
+                    <a href="https://www.aguafria.org">www.aguafria.org</a><br>
+                  </div>
+                </div>
+                <div class="flex flex-row pt-6">
+                  <a href="" class="flex-1 text-center">1481 N. Eliseo Felix Jr. Way, Avondale, AZ 85323</a>
+                </div>
+              </div>
+            </div>
+          <section>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="mt-6 text-center text-gray-500">
+        <!-- <p class="text-sm">References available upon request</p> -->
+      </footer>
+    </main>
+  </body>
+</html>
